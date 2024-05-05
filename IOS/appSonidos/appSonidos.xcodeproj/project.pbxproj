@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF77F67B2BD80EB2005B2092 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF77F67A2BD80EB2005B2092 /* AppDelegate.m */; };
+		CF77F67E2BD80EB2005B2092 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF77F67D2BD80EB2005B2092 /* SceneDelegate.m */; };
+		CF77F6812BD80EB2005B2092 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF77F6802BD80EB2005B2092 /* ViewController.m */; };
+		CF77F6842BD80EB2005B2092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF77F6822BD80EB2005B2092 /* Main.storyboard */; };
+		CF77F6862BD80EB3005B2092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF77F6852BD80EB3005B2092 /* Assets.xcassets */; };
+		CF77F6892BD80EB3005B2092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF77F6872BD80EB3005B2092 /* LaunchScreen.storyboard */; };
+		CF77F68C2BD80EB3005B2092 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF77F68B2BD80EB3005B2092 /* main.m */; };
+		CF77F6972BD80F01005B2092 /* helicoptero.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF77F6932BD80F00005B2092 /* helicoptero.mp3 */; };
+		CF77F6982BD80F01005B2092 /* et.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF77F6942BD80F00005B2092 /* et.mp3 */; };
+		CF77F6992BD80F01005B2092 /* mariobros.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF77F6952BD80F00005B2092 /* mariobros.mp3 */; };
+		CF77F69A2BD80F01005B2092 /* relax.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF77F6962BD80F00005B2092 /* relax.mp3 */; };
+		CF77F69D2BD812A8005B2092 /* AVFAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF77F69C2BD812A8005B2092 /* AVFAudio.framework */; };
+		CF77F69F2BD812EC005B2092 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF77F69E2BD812EC005B2092 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF77F6762BD80EB2005B2092 /* appSonidos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appSonidos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF77F6792BD80EB2005B2092 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF77F67A2BD80EB2005B2092 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF77F67C2BD80EB2005B2092 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CF77F67D2BD80EB2005B2092 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CF77F67F2BD80EB2005B2092 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF77F6802BD80EB2005B2092 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF77F6832BD80EB2005B2092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF77F6852BD80EB3005B2092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF77F6882BD80EB3005B2092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF77F68A2BD80EB3005B2092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF77F68B2BD80EB3005B2092 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF77F6932BD80F00005B2092 /* helicoptero.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = helicoptero.mp3; sourceTree = "<group>"; };
+		CF77F6942BD80F00005B2092 /* et.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = et.mp3; sourceTree = "<group>"; };
+		CF77F6952BD80F00005B2092 /* mariobros.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mariobros.mp3; sourceTree = "<group>"; };
+		CF77F6962BD80F00005B2092 /* relax.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = relax.mp3; sourceTree = "<group>"; };
+		CF77F69C2BD812A8005B2092 /* AVFAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFAudio.framework; path = System/Library/Frameworks/AVFAudio.framework; sourceTree = SDKROOT; };
+		CF77F69E2BD812EC005B2092 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF77F6732BD80EB2005B2092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF77F69F2BD812EC005B2092 /* AVFoundation.framework in Frameworks */,
+				CF77F69D2BD812A8005B2092 /* AVFAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF77F66D2BD80EB1005B2092 = {
+			isa = PBXGroup;
+			children = (
+				CF77F6782BD80EB2005B2092 /* appSonidos */,
+				CF77F6772BD80EB2005B2092 /* Products */,
+				CF77F69B2BD812A7005B2092 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF77F6772BD80EB2005B2092 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF77F6762BD80EB2005B2092 /* appSonidos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF77F6782BD80EB2005B2092 /* appSonidos */ = {
+			isa = PBXGroup;
+			children = (
+				CF77F6792BD80EB2005B2092 /* AppDelegate.h */,
+				CF77F67A2BD80EB2005B2092 /* AppDelegate.m */,
+				CF77F67C2BD80EB2005B2092 /* SceneDelegate.h */,
+				CF77F67D2BD80EB2005B2092 /* SceneDelegate.m */,
+				CF77F67F2BD80EB2005B2092 /* ViewController.h */,
+				CF77F6802BD80EB2005B2092 /* ViewController.m */,
+				CF77F6822BD80EB2005B2092 /* Main.storyboard */,
+				CF77F6852BD80EB3005B2092 /* Assets.xcassets */,
+				CF77F6872BD80EB3005B2092 /* LaunchScreen.storyboard */,
+				CF77F68A2BD80EB3005B2092 /* Info.plist */,
+				CF77F68B2BD80EB3005B2092 /* main.m */,
+				CF77F6922BD80F00005B2092 /* Sonidos */,
+			);
+			path = appSonidos;
+			sourceTree = "<group>";
+		};
+		CF77F6922BD80F00005B2092 /* Sonidos */ = {
+			isa = PBXGroup;
+			children = (
+				CF77F6932BD80F00005B2092 /* helicoptero.mp3 */,
+				CF77F6942BD80F00005B2092 /* et.mp3 */,
+				CF77F6952BD80F00005B2092 /* mariobros.mp3 */,
+				CF77F6962BD80F00005B2092 /* relax.mp3 */,
+			);
+			path = Sonidos;
+			sourceTree = "<group>";
+		};
+		CF77F69B2BD812A7005B2092 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF77F69E2BD812EC005B2092 /* AVFoundation.framework */,
+				CF77F69C2BD812A8005B2092 /* AVFAudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF77F6752BD80EB2005B2092 /* appSonidos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF77F68F2BD80EB3005B2092 /* Build configuration list for PBXNativeTarget "appSonidos" */;
+			buildPhases = (
+				CF77F6722BD80EB2005B2092 /* Sources */,
+				CF77F6732BD80EB2005B2092 /* Frameworks */,
+				CF77F6742BD80EB2005B2092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appSonidos;
+			productName = appSonidos;
+			productReference = CF77F6762BD80EB2005B2092 /* appSonidos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF77F66E2BD80EB1005B2092 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CF77F6752BD80EB2005B2092 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = CF77F6712BD80EB1005B2092 /* Build configuration list for PBXProject "appSonidos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF77F66D2BD80EB1005B2092;
+			productRefGroup = CF77F6772BD80EB2005B2092 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF77F6752BD80EB2005B2092 /* appSonidos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF77F6742BD80EB2005B2092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF77F6982BD80F01005B2092 /* et.mp3 in Resources */,
+				CF77F6892BD80EB3005B2092 /* LaunchScreen.storyboard in Resources */,
+				CF77F69A2BD80F01005B2092 /* relax.mp3 in Resources */,
+				CF77F6862BD80EB3005B2092 /* Assets.xcassets in Resources */,
+				CF77F6842BD80EB2005B2092 /* Main.storyboard in Resources */,
+				CF77F6972BD80F01005B2092 /* helicoptero.mp3 in Resources */,
+				CF77F6992BD80F01005B2092 /* mariobros.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF77F6722BD80EB2005B2092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF77F6812BD80EB2005B2092 /* ViewController.m in Sources */,
+				CF77F67B2BD80EB2005B2092 /* AppDelegate.m in Sources */,
+				CF77F68C2BD80EB3005B2092 /* main.m in Sources */,
+				CF77F67E2BD80EB2005B2092 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF77F6822BD80EB2005B2092 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF77F6832BD80EB2005B2092 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF77F6872BD80EB3005B2092 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF77F6882BD80EB3005B2092 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF77F68D2BD80EB3005B2092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF77F68E2BD80EB3005B2092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF77F6902BD80EB3005B2092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3M6X6879RS;
+				INFOPLIST_FILE = appSonidos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jorge-c.appSonidos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF77F6912BD80EB3005B2092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3M6X6879RS;
+				INFOPLIST_FILE = appSonidos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jorge-c.appSonidos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF77F6712BD80EB1005B2092 /* Build configuration list for PBXProject "appSonidos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF77F68D2BD80EB3005B2092 /* Debug */,
+				CF77F68E2BD80EB3005B2092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF77F68F2BD80EB3005B2092 /* Build configuration list for PBXNativeTarget "appSonidos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF77F6902BD80EB3005B2092 /* Debug */,
+				CF77F6912BD80EB3005B2092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF77F66E2BD80EB1005B2092 /* Project object */;
+}

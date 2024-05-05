@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lfW-OT-JiB">
+                                <rect key="frame" x="0.0" y="124" width="414" height="264"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8o-kh-2mC">
+                                <rect key="frame" x="20" y="56" width="374" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2u1-z8-Tly">
+                                <rect key="frame" x="0.0" y="432" width="414" height="162"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="162" id="oEq-Lh-KaH"/>
+                                </constraints>
+                            </pickerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="z8o-kh-2mC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="0FU-Nx-YiR"/>
+                            <constraint firstItem="z8o-kh-2mC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="2gD-KQ-2SW"/>
+                            <constraint firstItem="lfW-OT-JiB" firstAttribute="trailing" secondItem="2u1-z8-Tly" secondAttribute="trailing" id="7gx-gx-EAe"/>
+                            <constraint firstItem="z8o-kh-2mC" firstAttribute="centerX" secondItem="lfW-OT-JiB" secondAttribute="centerX" id="A8E-xn-C3k"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2u1-z8-Tly" secondAttribute="bottom" constant="142" id="NDo-0f-0X2"/>
+                            <constraint firstItem="lfW-OT-JiB" firstAttribute="leading" secondItem="2u1-z8-Tly" secondAttribute="leading" id="T9Q-9H-pIV"/>
+                            <constraint firstItem="lfW-OT-JiB" firstAttribute="top" secondItem="z8o-kh-2mC" secondAttribute="bottom" constant="32" id="TiV-kr-hjE"/>
+                            <constraint firstItem="lfW-OT-JiB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cDi-4q-xMv"/>
+                            <constraint firstItem="2u1-z8-Tly" firstAttribute="top" secondItem="lfW-OT-JiB" secondAttribute="bottom" constant="44" id="pks-k0-PZT"/>
+                            <constraint firstItem="z8o-kh-2mC" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="tfU-U7-1Xt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="etiqueta1" destination="z8o-kh-2mC" id="dOR-to-1Mf"/>
+                        <outlet property="imageView1" destination="lfW-OT-JiB" id="bO8-yk-xw0"/>
+                        <outlet property="pickerView1" destination="2u1-z8-Tly" id="ja0-Z0-TsC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="105.79710144927537" y="67.663043478260875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
