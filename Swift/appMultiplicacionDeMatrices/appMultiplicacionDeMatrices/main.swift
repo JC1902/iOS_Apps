@@ -54,14 +54,18 @@ func main() -> () {
         [
         [1, 2, 3],
         [4, 5, 6],
-        [3, 7, 9]
+        [7, 8, 9],
+        [1, 2, 3],
+        [7, 8, 9],
+        [7, 8, 9],
+        [7, 8, 9]
         ]
     
     let matrizB =
         [
-        [7, 8, 10],
-        [9, 10, 11],
-        [11, 12, 9]
+        [1, 2, 3, 1],
+        [4, 5, 6, 2],
+        [7, 8, 9, 3]
         ]
     
     print("Matriz A:")
@@ -93,11 +97,14 @@ func main() -> () {
         }
         
         let tam = matrixA.count
-        var resultado: [[Int]] = [[Int]](repeating: [Int](repeating: 0, count: tam), count: tam)
+        let col = matrixB[0].count
+        var resultado: [[Int]] = [[Int]](repeating: [Int](repeating: 0, count: col), count: tam)
         
-        for i in 0..<resultado.count{
-            for j in 0..<matrixA.count {
-                for k in 0..<matrixB.count {
+        imprimirMatrix(resultado)
+        
+        for i in 0..<matrixA.count{
+            for j in 0..<matrixB[0].count {
+                for k in 0..<matrixA[0].count {
                     resultado[i][j] += matrixA[i][k] * matrixB[k][j]
                 }
             }
