@@ -2,7 +2,7 @@
 //  ViewController.m
 //  appDibujarEnVista
 //
-//  Created by Jorge on 13/05/24.
+//  Created by Jorge Cisneros on 16/05/24.
 //
 
 #import "ViewController.h"

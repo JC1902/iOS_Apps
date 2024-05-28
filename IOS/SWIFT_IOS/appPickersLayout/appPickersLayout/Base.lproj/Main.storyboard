@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="appPickersLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S2x-lt-g5b">
+                                <rect key="frame" x="205" y="251" width="209" height="162"/>
+                                <color key="backgroundColor" red="0.97534336606894845" green="0.82676093084925584" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="S2x-lt-g5b" secondAttribute="height" multiplier="107:81" constant="-5.0000000000000284" id="Xfr-uq-0SZ"/>
+                                </constraints>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hKC-AU-0q5">
+                                <rect key="frame" x="0.0" y="251" width="206" height="162"/>
+                                <color key="backgroundColor" red="0.78882266051236971" green="0.99568434814111939" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="hKC-AU-0q5" secondAttribute="height" multiplier="107:81" constant="-8.0000000000000284" id="Iqc-SM-rao"/>
+                                </constraints>
+                            </pickerView>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Texto" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qbf-WY-3jV">
+                                <rect key="frame" x="30" y="160" width="355" height="50"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="28"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vSE-MO-E4m">
+                                <rect key="frame" x="30" y="53" width="355" height="53"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="S2x-lt-g5b" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="0rt-aB-Ub3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hKC-AU-0q5" secondAttribute="bottom" constant="323" id="1yC-1X-hji"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hKC-AU-0q5" secondAttribute="trailing" constant="208" id="6dM-mI-63V"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="S2x-lt-g5b" secondAttribute="bottom" constant="323" id="Ddp-5k-9rP"/>
+                            <constraint firstItem="qbf-WY-3jV" firstAttribute="top" secondItem="vSE-MO-E4m" secondAttribute="bottom" constant="54" id="Dot-5u-SAb"/>
+                            <constraint firstItem="vSE-MO-E4m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="F5e-2s-T1d"/>
+                            <constraint firstItem="hKC-AU-0q5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="251" id="HiU-De-zXJ"/>
+                            <constraint firstItem="hKC-AU-0q5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="I8h-Z0-PNY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vSE-MO-E4m" secondAttribute="trailing" constant="29" id="Iqq-RB-a7U"/>
+                            <constraint firstItem="qbf-WY-3jV" firstAttribute="top" secondItem="vSE-MO-E4m" secondAttribute="bottom" constant="54" id="Px9-l8-8bQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hKC-AU-0q5" secondAttribute="bottom" constant="323" id="To5-km-6wh"/>
+                            <constraint firstItem="vSE-MO-E4m" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="WWl-AU-7lY"/>
+                            <constraint firstItem="qbf-WY-3jV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="YXl-FJ-6R6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="S2x-lt-g5b" secondAttribute="bottom" constant="323" id="eLs-Ry-WVI"/>
+                            <constraint firstItem="S2x-lt-g5b" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="251" id="ed6-Py-tqE"/>
+                            <constraint firstItem="S2x-lt-g5b" firstAttribute="top" secondItem="qbf-WY-3jV" secondAttribute="bottom" constant="41" id="gLp-vA-iMF"/>
+                            <constraint firstItem="S2x-lt-g5b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="205" id="kKG-aX-Ewi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qbf-WY-3jV" secondAttribute="trailing" constant="29" id="sNL-Cz-m2D"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="531.8840579710145" y="64.402173913043484"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="appPickerViewProductos" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="303-07-zcI">
+                                <rect key="frame" x="20" y="40" width="374" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="JVd-n3-cnA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CFX-Bp-giE">
+                                <rect key="frame" x="20" y="131" width="374" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="vW3-az-po0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vn2-9Y-Pox">
+                                <rect key="frame" x="20" y="436" width="374" height="188"/>
+                                <color key="backgroundColor" red="0.73069369660000005" green="1" blue="0.93197145479999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DGR-nn-ZJH">
+                                <rect key="frame" x="187" y="248" width="207" height="162"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="162" id="gFZ-8s-f8F"/>
+                                </constraints>
+                            </pickerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CFX-Bp-giE" firstAttribute="leading" secondItem="vn2-9Y-Pox" secondAttribute="leading" id="C3R-Xm-kAs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="303-07-zcI" secondAttribute="trailing" constant="20" id="GVT-tp-aOo"/>
+                            <constraint firstItem="303-07-zcI" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Gp7-GT-SVO"/>
+                            <constraint firstItem="DGR-nn-ZJH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="187" id="J4x-9c-6sf"/>
+                            <constraint firstItem="vn2-9Y-Pox" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="436" id="Jo3-6M-JVk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CFX-Bp-giE" secondAttribute="trailing" constant="20" id="UCF-AO-J6L"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vn2-9Y-Pox" secondAttribute="bottom" constant="112" id="XdC-5Z-DOs"/>
+                            <constraint firstItem="303-07-zcI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dku-yQ-Mbs"/>
+                            <constraint firstItem="DGR-nn-ZJH" firstAttribute="top" secondItem="CFX-Bp-giE" secondAttribute="bottom" constant="60" id="gIU-20-nBG"/>
+                            <constraint firstItem="vn2-9Y-Pox" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gz0-Hr-NRj"/>
+                            <constraint firstItem="303-07-zcI" firstAttribute="leading" secondItem="CFX-Bp-giE" secondAttribute="leading" id="hC3-3Q-ogk"/>
+                            <constraint firstItem="DGR-nn-ZJH" firstAttribute="trailing" secondItem="vn2-9Y-Pox" secondAttribute="trailing" id="iLW-Na-pc2"/>
+                            <constraint firstItem="vn2-9Y-Pox" firstAttribute="top" secondItem="DGR-nn-ZJH" secondAttribute="bottom" constant="26" id="igv-a7-4Ib"/>
+                            <constraint firstItem="CFX-Bp-giE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="itD-8t-mOk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vn2-9Y-Pox" secondAttribute="trailing" constant="20" id="j2S-dA-knB"/>
+                            <constraint firstItem="CFX-Bp-giE" firstAttribute="top" secondItem="303-07-zcI" secondAttribute="bottom" constant="29" id="lLZ-ze-X06"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DGR-nn-ZJH" secondAttribute="trailing" constant="20" id="nJp-5x-qrZ"/>
+                            <constraint firstItem="303-07-zcI" firstAttribute="trailing" secondItem="CFX-Bp-giE" secondAttribute="trailing" id="oNs-si-jP9"/>
+                            <constraint firstItem="CFX-Bp-giE" firstAttribute="trailing" secondItem="DGR-nn-ZJH" secondAttribute="trailing" id="pNg-Ag-9oA"/>
+                            <constraint firstItem="303-07-zcI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="tzD-Nl-3Pl"/>
+                            <constraint firstItem="303-07-zcI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="vAY-Q3-6IB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView1" destination="vn2-9Y-Pox" id="4Ek-SA-D1G"/>
+                        <outlet property="label1" destination="303-07-zcI" id="Fsh-1p-ahV"/>
+                        <outlet property="pickerView1" destination="DGR-nn-ZJH" id="15K-vF-Y03"/>
+                        <outlet property="texto1" destination="CFX-Bp-giE" id="bhW-eM-xjE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="531.8840579710145" y="63.586956521739133"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

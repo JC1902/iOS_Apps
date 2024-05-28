@@ -7,35 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF6F97162BF267E400196A46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6F97152BF267E400196A46 /* AppDelegate.m */; };
-		CF6F97192BF267E400196A46 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6F97182BF267E400196A46 /* SceneDelegate.m */; };
-		CF6F971C2BF267E400196A46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6F971B2BF267E400196A46 /* ViewController.m */; };
-		CF6F971F2BF267E400196A46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6F971D2BF267E400196A46 /* Main.storyboard */; };
-		CF6F97212BF267E600196A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6F97202BF267E600196A46 /* Assets.xcassets */; };
-		CF6F97242BF267E600196A46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6F97222BF267E600196A46 /* LaunchScreen.storyboard */; };
-		CF6F97272BF267E600196A46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6F97262BF267E600196A46 /* main.m */; };
-		CF6F972F2BF2693C00196A46 /* DibujarConTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6F972E2BF2693C00196A46 /* DibujarConTouch.m */; };
+		CF574BB52BF6613B00F9CF64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF574BB42BF6613B00F9CF64 /* AppDelegate.m */; };
+		CF574BB82BF6613B00F9CF64 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF574BB72BF6613B00F9CF64 /* SceneDelegate.m */; };
+		CF574BBB2BF6613B00F9CF64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF574BBA2BF6613B00F9CF64 /* ViewController.m */; };
+		CF574BBE2BF6613B00F9CF64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF574BBC2BF6613B00F9CF64 /* Main.storyboard */; };
+		CF574BC02BF6613C00F9CF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF574BBF2BF6613C00F9CF64 /* Assets.xcassets */; };
+		CF574BC32BF6613C00F9CF64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF574BC12BF6613C00F9CF64 /* LaunchScreen.storyboard */; };
+		CF574BC62BF6613C00F9CF64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF574BC52BF6613C00F9CF64 /* main.m */; };
+		CF574BD02BF6613C00F9CF64 /* appDibujarEnVistaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF574BCF2BF6613C00F9CF64 /* appDibujarEnVistaTests.m */; };
+		CF574BDB2BF6613C00F9CF64 /* appDibujarEnVistaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF574BDA2BF6613C00F9CF64 /* appDibujarEnVistaUITests.m */; };
+		CF574BED2BF6617000F9CF64 /* DibujarConTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = CF574BEC2BF6617000F9CF64 /* DibujarConTouch.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CF574BCC2BF6613C00F9CF64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF574BA82BF6613B00F9CF64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF574BAF2BF6613B00F9CF64;
+			remoteInfo = appDibujarEnVista;
+		};
+		CF574BD72BF6613C00F9CF64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF574BA82BF6613B00F9CF64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF574BAF2BF6613B00F9CF64;
+			remoteInfo = appDibujarEnVista;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		CF6F97112BF267E400196A46 /* appDibujarEnVista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appDibujarEnVista.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF6F97142BF267E400196A46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CF6F97152BF267E400196A46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CF6F97172BF267E400196A46 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		CF6F97182BF267E400196A46 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		CF6F971A2BF267E400196A46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CF6F971B2BF267E400196A46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CF6F971E2BF267E400196A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CF6F97202BF267E600196A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CF6F97232BF267E600196A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CF6F97252BF267E600196A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF6F97262BF267E600196A46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CF6F972D2BF2693C00196A46 /* DibujarConTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DibujarConTouch.h; sourceTree = "<group>"; };
-		CF6F972E2BF2693C00196A46 /* DibujarConTouch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DibujarConTouch.m; sourceTree = "<group>"; };
+		CF574BB02BF6613B00F9CF64 /* appDibujarEnVista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appDibujarEnVista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF574BB32BF6613B00F9CF64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF574BB42BF6613B00F9CF64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF574BB62BF6613B00F9CF64 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CF574BB72BF6613B00F9CF64 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CF574BB92BF6613B00F9CF64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF574BBA2BF6613B00F9CF64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF574BBD2BF6613B00F9CF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF574BBF2BF6613C00F9CF64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF574BC22BF6613C00F9CF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF574BC42BF6613C00F9CF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF574BC52BF6613C00F9CF64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF574BCB2BF6613C00F9CF64 /* appDibujarEnVistaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appDibujarEnVistaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF574BCF2BF6613C00F9CF64 /* appDibujarEnVistaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appDibujarEnVistaTests.m; sourceTree = "<group>"; };
+		CF574BD12BF6613C00F9CF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF574BD62BF6613C00F9CF64 /* appDibujarEnVistaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appDibujarEnVistaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF574BDA2BF6613C00F9CF64 /* appDibujarEnVistaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appDibujarEnVistaUITests.m; sourceTree = "<group>"; };
+		CF574BDC2BF6613C00F9CF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF574BEB2BF6617000F9CF64 /* DibujarConTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DibujarConTouch.h; sourceTree = "<group>"; };
+		CF574BEC2BF6617000F9CF64 /* DibujarConTouch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DibujarConTouch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CF6F970E2BF267E400196A46 /* Frameworks */ = {
+		CF574BAD2BF6613B00F9CF64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF574BC82BF6613C00F9CF64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF574BD32BF6613C00F9CF64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,52 +84,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CF6F97082BF267E400196A46 = {
+		CF574BA72BF6613B00F9CF64 = {
 			isa = PBXGroup;
 			children = (
-				CF6F97132BF267E400196A46 /* appDibujarEnVista */,
-				CF6F97122BF267E400196A46 /* Products */,
+				CF574BB22BF6613B00F9CF64 /* appDibujarEnVista */,
+				CF574BCE2BF6613C00F9CF64 /* appDibujarEnVistaTests */,
+				CF574BD92BF6613C00F9CF64 /* appDibujarEnVistaUITests */,
+				CF574BB12BF6613B00F9CF64 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CF6F97122BF267E400196A46 /* Products */ = {
+		CF574BB12BF6613B00F9CF64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF6F97112BF267E400196A46 /* appDibujarEnVista.app */,
+				CF574BB02BF6613B00F9CF64 /* appDibujarEnVista.app */,
+				CF574BCB2BF6613C00F9CF64 /* appDibujarEnVistaTests.xctest */,
+				CF574BD62BF6613C00F9CF64 /* appDibujarEnVistaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF6F97132BF267E400196A46 /* appDibujarEnVista */ = {
+		CF574BB22BF6613B00F9CF64 /* appDibujarEnVista */ = {
 			isa = PBXGroup;
 			children = (
-				CF6F97142BF267E400196A46 /* AppDelegate.h */,
-				CF6F97152BF267E400196A46 /* AppDelegate.m */,
-				CF6F97172BF267E400196A46 /* SceneDelegate.h */,
-				CF6F97182BF267E400196A46 /* SceneDelegate.m */,
-				CF6F971A2BF267E400196A46 /* ViewController.h */,
-				CF6F971B2BF267E400196A46 /* ViewController.m */,
-				CF6F971D2BF267E400196A46 /* Main.storyboard */,
-				CF6F97202BF267E600196A46 /* Assets.xcassets */,
-				CF6F97222BF267E600196A46 /* LaunchScreen.storyboard */,
-				CF6F97252BF267E600196A46 /* Info.plist */,
-				CF6F97262BF267E600196A46 /* main.m */,
-				CF6F972D2BF2693C00196A46 /* DibujarConTouch.h */,
-				CF6F972E2BF2693C00196A46 /* DibujarConTouch.m */,
+				CF574BB32BF6613B00F9CF64 /* AppDelegate.h */,
+				CF574BB42BF6613B00F9CF64 /* AppDelegate.m */,
+				CF574BB62BF6613B00F9CF64 /* SceneDelegate.h */,
+				CF574BB72BF6613B00F9CF64 /* SceneDelegate.m */,
+				CF574BB92BF6613B00F9CF64 /* ViewController.h */,
+				CF574BBA2BF6613B00F9CF64 /* ViewController.m */,
+				CF574BBC2BF6613B00F9CF64 /* Main.storyboard */,
+				CF574BBF2BF6613C00F9CF64 /* Assets.xcassets */,
+				CF574BC12BF6613C00F9CF64 /* LaunchScreen.storyboard */,
+				CF574BC42BF6613C00F9CF64 /* Info.plist */,
+				CF574BC52BF6613C00F9CF64 /* main.m */,
+				CF574BEB2BF6617000F9CF64 /* DibujarConTouch.h */,
+				CF574BEC2BF6617000F9CF64 /* DibujarConTouch.m */,
 			);
 			path = appDibujarEnVista;
+			sourceTree = "<group>";
+		};
+		CF574BCE2BF6613C00F9CF64 /* appDibujarEnVistaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF574BCF2BF6613C00F9CF64 /* appDibujarEnVistaTests.m */,
+				CF574BD12BF6613C00F9CF64 /* Info.plist */,
+			);
+			path = appDibujarEnVistaTests;
+			sourceTree = "<group>";
+		};
+		CF574BD92BF6613C00F9CF64 /* appDibujarEnVistaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF574BDA2BF6613C00F9CF64 /* appDibujarEnVistaUITests.m */,
+				CF574BDC2BF6613C00F9CF64 /* Info.plist */,
+			);
+			path = appDibujarEnVistaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF6F97102BF267E400196A46 /* appDibujarEnVista */ = {
+		CF574BAF2BF6613B00F9CF64 /* appDibujarEnVista */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF6F972A2BF267E600196A46 /* Build configuration list for PBXNativeTarget "appDibujarEnVista" */;
+			buildConfigurationList = CF574BDF2BF6613C00F9CF64 /* Build configuration list for PBXNativeTarget "appDibujarEnVista" */;
 			buildPhases = (
-				CF6F970D2BF267E400196A46 /* Sources */,
-				CF6F970E2BF267E400196A46 /* Frameworks */,
-				CF6F970F2BF267E400196A46 /* Resources */,
+				CF574BAC2BF6613B00F9CF64 /* Sources */,
+				CF574BAD2BF6613B00F9CF64 /* Frameworks */,
+				CF574BAE2BF6613B00F9CF64 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -98,23 +159,67 @@
 			);
 			name = appDibujarEnVista;
 			productName = appDibujarEnVista;
-			productReference = CF6F97112BF267E400196A46 /* appDibujarEnVista.app */;
+			productReference = CF574BB02BF6613B00F9CF64 /* appDibujarEnVista.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CF574BCA2BF6613C00F9CF64 /* appDibujarEnVistaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF574BE22BF6613C00F9CF64 /* Build configuration list for PBXNativeTarget "appDibujarEnVistaTests" */;
+			buildPhases = (
+				CF574BC72BF6613C00F9CF64 /* Sources */,
+				CF574BC82BF6613C00F9CF64 /* Frameworks */,
+				CF574BC92BF6613C00F9CF64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF574BCD2BF6613C00F9CF64 /* PBXTargetDependency */,
+			);
+			name = appDibujarEnVistaTests;
+			productName = appDibujarEnVistaTests;
+			productReference = CF574BCB2BF6613C00F9CF64 /* appDibujarEnVistaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF574BD52BF6613C00F9CF64 /* appDibujarEnVistaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF574BE52BF6613C00F9CF64 /* Build configuration list for PBXNativeTarget "appDibujarEnVistaUITests" */;
+			buildPhases = (
+				CF574BD22BF6613C00F9CF64 /* Sources */,
+				CF574BD32BF6613C00F9CF64 /* Frameworks */,
+				CF574BD42BF6613C00F9CF64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF574BD82BF6613C00F9CF64 /* PBXTargetDependency */,
+			);
+			name = appDibujarEnVistaUITests;
+			productName = appDibujarEnVistaUITests;
+			productReference = CF574BD62BF6613C00F9CF64 /* appDibujarEnVistaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CF6F97092BF267E400196A46 /* Project object */ = {
+		CF574BA82BF6613B00F9CF64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					CF6F97102BF267E400196A46 = {
-						CreatedOnToolsVersion = 12.5.1;
+					CF574BAF2BF6613B00F9CF64 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CF574BCA2BF6613C00F9CF64 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CF574BAF2BF6613B00F9CF64;
+					};
+					CF574BD52BF6613C00F9CF64 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CF574BAF2BF6613B00F9CF64;
 					};
 				};
 			};
-			buildConfigurationList = CF6F970C2BF267E400196A46 /* Build configuration list for PBXProject "appDibujarEnVista" */;
+			buildConfigurationList = CF574BAB2BF6613B00F9CF64 /* Build configuration list for PBXProject "appDibujarEnVista" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,57 +227,102 @@
 				en,
 				Base,
 			);
-			mainGroup = CF6F97082BF267E400196A46;
-			productRefGroup = CF6F97122BF267E400196A46 /* Products */;
+			mainGroup = CF574BA72BF6613B00F9CF64;
+			productRefGroup = CF574BB12BF6613B00F9CF64 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF6F97102BF267E400196A46 /* appDibujarEnVista */,
+				CF574BAF2BF6613B00F9CF64 /* appDibujarEnVista */,
+				CF574BCA2BF6613C00F9CF64 /* appDibujarEnVistaTests */,
+				CF574BD52BF6613C00F9CF64 /* appDibujarEnVistaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CF6F970F2BF267E400196A46 /* Resources */ = {
+		CF574BAE2BF6613B00F9CF64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF6F97242BF267E600196A46 /* LaunchScreen.storyboard in Resources */,
-				CF6F97212BF267E600196A46 /* Assets.xcassets in Resources */,
-				CF6F971F2BF267E400196A46 /* Main.storyboard in Resources */,
+				CF574BC32BF6613C00F9CF64 /* LaunchScreen.storyboard in Resources */,
+				CF574BC02BF6613C00F9CF64 /* Assets.xcassets in Resources */,
+				CF574BBE2BF6613B00F9CF64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF574BC92BF6613C00F9CF64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF574BD42BF6613C00F9CF64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CF6F970D2BF267E400196A46 /* Sources */ = {
+		CF574BAC2BF6613B00F9CF64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF6F971C2BF267E400196A46 /* ViewController.m in Sources */,
-				CF6F972F2BF2693C00196A46 /* DibujarConTouch.m in Sources */,
-				CF6F97162BF267E400196A46 /* AppDelegate.m in Sources */,
-				CF6F97272BF267E600196A46 /* main.m in Sources */,
-				CF6F97192BF267E400196A46 /* SceneDelegate.m in Sources */,
+				CF574BBB2BF6613B00F9CF64 /* ViewController.m in Sources */,
+				CF574BED2BF6617000F9CF64 /* DibujarConTouch.m in Sources */,
+				CF574BB52BF6613B00F9CF64 /* AppDelegate.m in Sources */,
+				CF574BC62BF6613C00F9CF64 /* main.m in Sources */,
+				CF574BB82BF6613B00F9CF64 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF574BC72BF6613C00F9CF64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF574BD02BF6613C00F9CF64 /* appDibujarEnVistaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF574BD22BF6613C00F9CF64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF574BDB2BF6613C00F9CF64 /* appDibujarEnVistaUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		CF574BCD2BF6613C00F9CF64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF574BAF2BF6613B00F9CF64 /* appDibujarEnVista */;
+			targetProxy = CF574BCC2BF6613C00F9CF64 /* PBXContainerItemProxy */;
+		};
+		CF574BD82BF6613C00F9CF64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF574BAF2BF6613B00F9CF64 /* appDibujarEnVista */;
+			targetProxy = CF574BD72BF6613C00F9CF64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		CF6F971D2BF267E400196A46 /* Main.storyboard */ = {
+		CF574BBC2BF6613B00F9CF64 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CF6F971E2BF267E400196A46 /* Base */,
+				CF574BBD2BF6613B00F9CF64 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CF6F97222BF267E600196A46 /* LaunchScreen.storyboard */ = {
+		CF574BC12BF6613C00F9CF64 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CF6F97232BF267E600196A46 /* Base */,
+				CF574BC22BF6613C00F9CF64 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -180,7 +330,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CF6F97282BF267E600196A46 /* Debug */ = {
+		CF574BDD2BF6613C00F9CF64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -239,7 +389,7 @@
 			};
 			name = Debug;
 		};
-		CF6F97292BF267E600196A46 /* Release */ = {
+		CF574BDE2BF6613C00F9CF64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,7 +442,7 @@
 			};
 			name = Release;
 		};
-		CF6F972B2BF267E600196A46 /* Debug */ = {
+		CF574BE02BF6613C00F9CF64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -304,13 +454,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jorge-c.appDibujarEnVista";
+				PRODUCT_BUNDLE_IDENTIFIER = jorgec.appDibujarEnVista;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CF6F972C2BF267E600196A46 /* Release */ = {
+		CF574BE12BF6613C00F9CF64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -322,34 +472,128 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jorge-c.appDibujarEnVista";
+				PRODUCT_BUNDLE_IDENTIFIER = jorgec.appDibujarEnVista;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF574BE32BF6613C00F9CF64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3M6X6879RS;
+				INFOPLIST_FILE = appDibujarEnVistaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jorgec.appDibujarEnVistaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appDibujarEnVista.app/appDibujarEnVista";
+			};
+			name = Debug;
+		};
+		CF574BE42BF6613C00F9CF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3M6X6879RS;
+				INFOPLIST_FILE = appDibujarEnVistaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jorgec.appDibujarEnVistaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appDibujarEnVista.app/appDibujarEnVista";
+			};
+			name = Release;
+		};
+		CF574BE62BF6613C00F9CF64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3M6X6879RS;
+				INFOPLIST_FILE = appDibujarEnVistaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jorgec.appDibujarEnVistaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appDibujarEnVista;
+			};
+			name = Debug;
+		};
+		CF574BE72BF6613C00F9CF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3M6X6879RS;
+				INFOPLIST_FILE = appDibujarEnVistaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jorgec.appDibujarEnVistaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appDibujarEnVista;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF6F970C2BF267E400196A46 /* Build configuration list for PBXProject "appDibujarEnVista" */ = {
+		CF574BAB2BF6613B00F9CF64 /* Build configuration list for PBXProject "appDibujarEnVista" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF6F97282BF267E600196A46 /* Debug */,
-				CF6F97292BF267E600196A46 /* Release */,
+				CF574BDD2BF6613C00F9CF64 /* Debug */,
+				CF574BDE2BF6613C00F9CF64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF6F972A2BF267E600196A46 /* Build configuration list for PBXNativeTarget "appDibujarEnVista" */ = {
+		CF574BDF2BF6613C00F9CF64 /* Build configuration list for PBXNativeTarget "appDibujarEnVista" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF6F972B2BF267E600196A46 /* Debug */,
-				CF6F972C2BF267E600196A46 /* Release */,
+				CF574BE02BF6613C00F9CF64 /* Debug */,
+				CF574BE12BF6613C00F9CF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF574BE22BF6613C00F9CF64 /* Build configuration list for PBXNativeTarget "appDibujarEnVistaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF574BE32BF6613C00F9CF64 /* Debug */,
+				CF574BE42BF6613C00F9CF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF574BE52BF6613C00F9CF64 /* Build configuration list for PBXNativeTarget "appDibujarEnVistaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF574BE62BF6613C00F9CF64 /* Debug */,
+				CF574BE72BF6613C00F9CF64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CF6F97092BF267E400196A46 /* Project object */;
+	rootObject = CF574BA82BF6613B00F9CF64 /* Project object */;
 }

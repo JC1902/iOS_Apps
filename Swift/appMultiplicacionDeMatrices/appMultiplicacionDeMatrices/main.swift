@@ -47,6 +47,39 @@ import Foundation
 //}
 
 func main() -> () {
+    
+    func imprimirMatrix ( _ matrix: [[Int]] ) {
+        
+        for arreglo in matrix{
+            print(arreglo)
+        }
+        
+    }
+    
+    func multiplicarMatrices ( _ matrixA: [[Int]], _ matrixB: [[Int]] ) -> [[Int]] {
+        if matrixA[0].count != matrixB.count {
+            print("ERROR, NUMERO DE COLUMNAS DE MATRIZ A = NUMERO DE RENGLONES DE MATRIZ B")
+            return [[]]
+        }
+        
+        let tam = matrixA.count
+        let col = matrixB[0].count
+        var resultado: [[Int]] = [[Int]](repeating: [Int](repeating: 0, count: col), count: tam)
+        
+        imprimirMatrix(resultado)
+        
+        for i in 0..<matrixA.count{
+            for j in 0..<matrixB[0].count {
+                for k in 0..<matrixA[0].count {
+                    resultado[i][j] += matrixA[i][k] * matrixB[k][j]
+                }
+            }
+        }
+        
+        return resultado
+        
+    }
+    
     print("Multiplicación de matrices")
     print()
     
@@ -82,37 +115,7 @@ func main() -> () {
     print("Matriz A X Matriz B")
     imprimirMatrix( mAXmB )
     
-    func imprimirMatrix ( _ matrix: [[Int]] ) {
-        
-        for arreglo in matrix{
-            print(arreglo)
-        }
-        
-    }
     
-    func multiplicarMatrices ( _ matrixA: [[Int]], _ matrixB: [[Int]] ) -> [[Int]] {
-        if matrixA[0].count != matrixB.count {
-            print("ERROR, NUMERO DE COLUMNAS DE MATRIZ A = NUMERO DE RENGLONES DE MATRIZ B")
-            return [[]]
-        }
-        
-        let tam = matrixA.count
-        let col = matrixB[0].count
-        var resultado: [[Int]] = [[Int]](repeating: [Int](repeating: 0, count: col), count: tam)
-        
-        imprimirMatrix(resultado)
-        
-        for i in 0..<matrixA.count{
-            for j in 0..<matrixB[0].count {
-                for k in 0..<matrixA[0].count {
-                    resultado[i][j] += matrixA[i][k] * matrixB[k][j]
-                }
-            }
-        }
-        
-        return resultado
-        
-    }
     
 }
 
