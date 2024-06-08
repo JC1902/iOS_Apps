@@ -7,31 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF4F2B042C10C2490081600A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4F2B032C10C2490081600A /* AppDelegate.swift */; };
-		CF4F2B062C10C2490081600A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4F2B052C10C2490081600A /* SceneDelegate.swift */; };
-		CF4F2B082C10C2490081600A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4F2B072C10C2490081600A /* ViewController.swift */; };
-		CF4F2B0B2C10C2490081600A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4F2B092C10C2490081600A /* Main.storyboard */; };
-		CF4F2B0D2C10C24B0081600A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4F2B0C2C10C24B0081600A /* Assets.xcassets */; };
-		CF4F2B102C10C24B0081600A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4F2B0E2C10C24B0081600A /* LaunchScreen.storyboard */; };
-		CFE10DBB2C120DDF007F35C5 /* VCCurvasBezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE10DBA2C120DDF007F35C5 /* VCCurvasBezier.swift */; };
-		CFE10DBE2C1210B8007F35C5 /* VCFotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE10DBD2C1210B8007F35C5 /* VCFotos.swift */; };
+		CF4F86EE2C135B7C004EAB1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4F86ED2C135B7C004EAB1B /* AppDelegate.swift */; };
+		CF4F86F02C135B7C004EAB1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4F86EF2C135B7C004EAB1B /* SceneDelegate.swift */; };
+		CF4F86F22C135B7C004EAB1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4F86F12C135B7C004EAB1B /* ContentView.swift */; };
+		CF4F86F42C135B7C004EAB1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4F86F32C135B7C004EAB1B /* Assets.xcassets */; };
+		CF4F86F72C135B7C004EAB1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4F86F62C135B7C004EAB1B /* Preview Assets.xcassets */; };
+		CF4F86FA2C135B7C004EAB1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4F86F82C135B7C004EAB1B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF4F2B002C10C2480081600A /* appTabBarViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appTabBarViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF4F2B032C10C2490081600A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF4F2B052C10C2490081600A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF4F2B072C10C2490081600A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CF4F2B0A2C10C2490081600A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CF4F2B0C2C10C24B0081600A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CF4F2B0F2C10C24B0081600A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CF4F2B112C10C24B0081600A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFE10DBA2C120DDF007F35C5 /* VCCurvasBezier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCurvasBezier.swift; sourceTree = "<group>"; };
-		CFE10DBD2C1210B8007F35C5 /* VCFotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCFotos.swift; sourceTree = "<group>"; };
+		CF4F86EA2C135B7C004EAB1B /* appPickerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appPickerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4F86ED2C135B7C004EAB1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF4F86EF2C135B7C004EAB1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF4F86F12C135B7C004EAB1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF4F86F32C135B7C004EAB1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF4F86F62C135B7C004EAB1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF4F86F92C135B7C004EAB1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF4F86FB2C135B7C004EAB1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CF4F2AFD2C10C2480081600A /* Frameworks */ = {
+		CF4F86E72C135B7C004EAB1B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,73 +37,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CF4F2AF72C10C2480081600A = {
+		CF4F86E12C135B7C004EAB1B = {
 			isa = PBXGroup;
 			children = (
-				CF4F2B022C10C2480081600A /* appTabBarViewController */,
-				CF4F2B012C10C2480081600A /* Products */,
+				CF4F86EC2C135B7C004EAB1B /* appPickerSwiftUI */,
+				CF4F86EB2C135B7C004EAB1B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CF4F2B012C10C2480081600A /* Products */ = {
+		CF4F86EB2C135B7C004EAB1B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF4F2B002C10C2480081600A /* appTabBarViewController.app */,
+				CF4F86EA2C135B7C004EAB1B /* appPickerSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF4F2B022C10C2480081600A /* appTabBarViewController */ = {
+		CF4F86EC2C135B7C004EAB1B /* appPickerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				CF4F2B032C10C2490081600A /* AppDelegate.swift */,
-				CF4F2B052C10C2490081600A /* SceneDelegate.swift */,
-				CF4F2B072C10C2490081600A /* ViewController.swift */,
-				CF4F2B092C10C2490081600A /* Main.storyboard */,
-				CF4F2B0C2C10C24B0081600A /* Assets.xcassets */,
-				CF4F2B0E2C10C24B0081600A /* LaunchScreen.storyboard */,
-				CF4F2B112C10C24B0081600A /* Info.plist */,
-				CFE10DBA2C120DDF007F35C5 /* VCCurvasBezier.swift */,
-				CFE10DBD2C1210B8007F35C5 /* VCFotos.swift */,
+				CF4F86ED2C135B7C004EAB1B /* AppDelegate.swift */,
+				CF4F86EF2C135B7C004EAB1B /* SceneDelegate.swift */,
+				CF4F86F12C135B7C004EAB1B /* ContentView.swift */,
+				CF4F86F32C135B7C004EAB1B /* Assets.xcassets */,
+				CF4F86F82C135B7C004EAB1B /* LaunchScreen.storyboard */,
+				CF4F86FB2C135B7C004EAB1B /* Info.plist */,
+				CF4F86F52C135B7C004EAB1B /* Preview Content */,
 			);
-			path = appTabBarViewController;
+			path = appPickerSwiftUI;
+			sourceTree = "<group>";
+		};
+		CF4F86F52C135B7C004EAB1B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F86F62C135B7C004EAB1B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF4F2AFF2C10C2480081600A /* appTabBarViewController */ = {
+		CF4F86E92C135B7C004EAB1B /* appPickerSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF4F2B142C10C24B0081600A /* Build configuration list for PBXNativeTarget "appTabBarViewController" */;
+			buildConfigurationList = CF4F86FE2C135B7C004EAB1B /* Build configuration list for PBXNativeTarget "appPickerSwiftUI" */;
 			buildPhases = (
-				CF4F2AFC2C10C2480081600A /* Sources */,
-				CF4F2AFD2C10C2480081600A /* Frameworks */,
-				CF4F2AFE2C10C2480081600A /* Resources */,
+				CF4F86E62C135B7C004EAB1B /* Sources */,
+				CF4F86E72C135B7C004EAB1B /* Frameworks */,
+				CF4F86E82C135B7C004EAB1B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = appTabBarViewController;
-			productName = appTabBarViewController;
-			productReference = CF4F2B002C10C2480081600A /* appTabBarViewController.app */;
+			name = appPickerSwiftUI;
+			productName = appPickerSwiftUI;
+			productReference = CF4F86EA2C135B7C004EAB1B /* appPickerSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CF4F2AF82C10C2480081600A /* Project object */ = {
+		CF4F86E22C135B7C004EAB1B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					CF4F2AFF2C10C2480081600A = {
+					CF4F86E92C135B7C004EAB1B = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = CF4F2AFB2C10C2480081600A /* Build configuration list for PBXProject "appTabBarViewController" */;
+			buildConfigurationList = CF4F86E52C135B7C004EAB1B /* Build configuration list for PBXProject "appPickerSwiftUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,57 +117,47 @@
 				en,
 				Base,
 			);
-			mainGroup = CF4F2AF72C10C2480081600A;
-			productRefGroup = CF4F2B012C10C2480081600A /* Products */;
+			mainGroup = CF4F86E12C135B7C004EAB1B;
+			productRefGroup = CF4F86EB2C135B7C004EAB1B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF4F2AFF2C10C2480081600A /* appTabBarViewController */,
+				CF4F86E92C135B7C004EAB1B /* appPickerSwiftUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CF4F2AFE2C10C2480081600A /* Resources */ = {
+		CF4F86E82C135B7C004EAB1B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF4F2B102C10C24B0081600A /* LaunchScreen.storyboard in Resources */,
-				CF4F2B0D2C10C24B0081600A /* Assets.xcassets in Resources */,
-				CF4F2B0B2C10C2490081600A /* Main.storyboard in Resources */,
+				CF4F86FA2C135B7C004EAB1B /* LaunchScreen.storyboard in Resources */,
+				CF4F86F72C135B7C004EAB1B /* Preview Assets.xcassets in Resources */,
+				CF4F86F42C135B7C004EAB1B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CF4F2AFC2C10C2480081600A /* Sources */ = {
+		CF4F86E62C135B7C004EAB1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE10DBE2C1210B8007F35C5 /* VCFotos.swift in Sources */,
-				CF4F2B082C10C2490081600A /* ViewController.swift in Sources */,
-				CFE10DBB2C120DDF007F35C5 /* VCCurvasBezier.swift in Sources */,
-				CF4F2B042C10C2490081600A /* AppDelegate.swift in Sources */,
-				CF4F2B062C10C2490081600A /* SceneDelegate.swift in Sources */,
+				CF4F86EE2C135B7C004EAB1B /* AppDelegate.swift in Sources */,
+				CF4F86F02C135B7C004EAB1B /* SceneDelegate.swift in Sources */,
+				CF4F86F22C135B7C004EAB1B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CF4F2B092C10C2490081600A /* Main.storyboard */ = {
+		CF4F86F82C135B7C004EAB1B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CF4F2B0A2C10C2490081600A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CF4F2B0E2C10C24B0081600A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF4F2B0F2C10C24B0081600A /* Base */,
+				CF4F86F92C135B7C004EAB1B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -173,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CF4F2B122C10C24B0081600A /* Debug */ = {
+		CF4F86FC2C135B7C004EAB1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		CF4F2B132C10C24B0081600A /* Release */ = {
+		CF4F86FD2C135B7C004EAB1B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,38 +281,42 @@
 			};
 			name = Release;
 		};
-		CF4F2B152C10C24B0081600A /* Debug */ = {
+		CF4F86FF2C135B7C004EAB1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"appPickerSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 3M6X6879RS;
-				INFOPLIST_FILE = appTabBarViewController/Info.plist;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = appPickerSwiftUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jorgec.appTabBarViewController;
+				PRODUCT_BUNDLE_IDENTIFIER = jorgec.appPickerSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CF4F2B162C10C24B0081600A /* Release */ = {
+		CF4F87002C135B7C004EAB1B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"appPickerSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 3M6X6879RS;
-				INFOPLIST_FILE = appTabBarViewController/Info.plist;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = appPickerSwiftUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jorgec.appTabBarViewController;
+				PRODUCT_BUNDLE_IDENTIFIER = jorgec.appPickerSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,25 +326,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF4F2AFB2C10C2480081600A /* Build configuration list for PBXProject "appTabBarViewController" */ = {
+		CF4F86E52C135B7C004EAB1B /* Build configuration list for PBXProject "appPickerSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF4F2B122C10C24B0081600A /* Debug */,
-				CF4F2B132C10C24B0081600A /* Release */,
+				CF4F86FC2C135B7C004EAB1B /* Debug */,
+				CF4F86FD2C135B7C004EAB1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF4F2B142C10C24B0081600A /* Build configuration list for PBXNativeTarget "appTabBarViewController" */ = {
+		CF4F86FE2C135B7C004EAB1B /* Build configuration list for PBXNativeTarget "appPickerSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF4F2B152C10C24B0081600A /* Debug */,
-				CF4F2B162C10C24B0081600A /* Release */,
+				CF4F86FF2C135B7C004EAB1B /* Debug */,
+				CF4F87002C135B7C004EAB1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CF4F2AF82C10C2480081600A /* Project object */;
+	rootObject = CF4F86E22C135B7C004EAB1B /* Project object */;
 }
