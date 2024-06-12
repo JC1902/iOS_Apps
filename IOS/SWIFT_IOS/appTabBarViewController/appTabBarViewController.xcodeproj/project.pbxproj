@@ -8,19 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		CF46B2682C14E0E2001A3723 /* CurvasBezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46B2672C14E0E2001A3723 /* CurvasBezier.swift */; };
+		CF4F26F02C16D30F007F7435 /* VCConjuntos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4F26EF2C16D30F007F7435 /* VCConjuntos.swift */; };
 		CF4F2B042C10C2490081600A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4F2B032C10C2490081600A /* AppDelegate.swift */; };
 		CF4F2B062C10C2490081600A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4F2B052C10C2490081600A /* SceneDelegate.swift */; };
 		CF4F2B082C10C2490081600A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4F2B072C10C2490081600A /* ViewController.swift */; };
 		CF4F2B0B2C10C2490081600A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4F2B092C10C2490081600A /* Main.storyboard */; };
 		CF4F2B0D2C10C24B0081600A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4F2B0C2C10C24B0081600A /* Assets.xcassets */; };
 		CF4F2B102C10C24B0081600A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4F2B0E2C10C24B0081600A /* LaunchScreen.storyboard */; };
-		CFCE3A6E2C14D6770039803F /* VCCalculadora.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCE3A6D2C14D6770039803F /* VCCalculadora.swift */; };
 		CFE10DBB2C120DDF007F35C5 /* VCCurvasBezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE10DBA2C120DDF007F35C5 /* VCCurvasBezier.swift */; };
 		CFE10DBE2C1210B8007F35C5 /* VCFotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE10DBD2C1210B8007F35C5 /* VCFotos.swift */; };
+		CFF076C52C161A0D0003234A /* VCCalculadora.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF076C42C161A0D0003234A /* VCCalculadora.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF46B2672C14E0E2001A3723 /* CurvasBezier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvasBezier.swift; sourceTree = "<group>"; };
+		CF4F26EF2C16D30F007F7435 /* VCConjuntos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCConjuntos.swift; sourceTree = "<group>"; };
 		CF4F2B002C10C2480081600A /* appTabBarViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appTabBarViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4F2B032C10C2490081600A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF4F2B052C10C2490081600A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,9 +31,9 @@
 		CF4F2B0C2C10C24B0081600A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF4F2B0F2C10C24B0081600A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF4F2B112C10C24B0081600A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFCE3A6D2C14D6770039803F /* VCCalculadora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCalculadora.swift; sourceTree = "<group>"; };
 		CFE10DBA2C120DDF007F35C5 /* VCCurvasBezier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCurvasBezier.swift; sourceTree = "<group>"; };
 		CFE10DBD2C1210B8007F35C5 /* VCFotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCFotos.swift; sourceTree = "<group>"; };
+		CFF076C42C161A0D0003234A /* VCCalculadora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCalculadora.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,8 @@
 				CF4F2B052C10C2490081600A /* SceneDelegate.swift */,
 				CF4F2B072C10C2490081600A /* ViewController.swift */,
 				CF4F2B092C10C2490081600A /* Main.storyboard */,
-				CFCE3A6D2C14D6770039803F /* VCCalculadora.swift */,
+				CF4F26EF2C16D30F007F7435 /* VCConjuntos.swift */,
+				CFF076C42C161A0D0003234A /* VCCalculadora.swift */,
 				CF4F2B0C2C10C24B0081600A /* Assets.xcassets */,
 				CF4F2B0E2C10C24B0081600A /* LaunchScreen.storyboard */,
 				CF4F2B112C10C24B0081600A /* Info.plist */,
@@ -149,12 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF4F26F02C16D30F007F7435 /* VCConjuntos.swift in Sources */,
 				CFE10DBE2C1210B8007F35C5 /* VCFotos.swift in Sources */,
 				CF4F2B082C10C2490081600A /* ViewController.swift in Sources */,
 				CF46B2682C14E0E2001A3723 /* CurvasBezier.swift in Sources */,
 				CFE10DBB2C120DDF007F35C5 /* VCCurvasBezier.swift in Sources */,
+				CFF076C52C161A0D0003234A /* VCCalculadora.swift in Sources */,
 				CF4F2B042C10C2490081600A /* AppDelegate.swift in Sources */,
-				CFCE3A6E2C14D6770039803F /* VCCalculadora.swift in Sources */,
 				CF4F2B062C10C2490081600A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

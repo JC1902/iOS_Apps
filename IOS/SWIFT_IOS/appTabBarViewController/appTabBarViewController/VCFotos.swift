@@ -56,7 +56,6 @@ class VCFotos: UIViewController, UIImagePickerControllerDelegate, UINavigationCo
         dismiss(animated: true, completion: nil)
         
     }
-    
 
     /*
     // MARK: - Navigation

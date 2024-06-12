@@ -26,6 +26,8 @@ class VCCurvasBezier: UIViewController {
     
     @IBOutlet weak var btnAnchoAlto: UIButton!
     
+    @IBOutlet weak var tipoCurva: UISegmentedControl!
+    
     // Método para actualizar la curva de Bezier
     func actualizarCurvaBezier() {
         self.canvas.x1 = Int(x1.value)
@@ -52,14 +54,55 @@ class VCCurvasBezier: UIViewController {
         self.canvas.setNeedsDisplay()
     }
     
-    @IBAction func btnDibujarCurvaBezier(_ sender: UIButton) {
-        actualizarCurvaBezier()
+    func actualizarGradiente1() {
+        self.canvas.x1 = Int(x1.value)
+        self.canvas.y1 = Int(y1.value)
+        self.canvas.x2 = Int(x2.value)
+        self.canvas.y2 = Int(y2.value)
+        self.canvas.tipoCurva = .gradiente1
+        self.canvas.setNeedsDisplay()
     }
     
-    @IBAction func btnDibujarCurvaQuadBezier(_ sender: UIButton) {
-        actualizarCurvaQuadBezier()
+    func actualizarGradiente2() {
+        self.canvas.x1 = Int(x1.value)
+        self.canvas.y1 = Int(y1.value)
+        self.canvas.x2 = Int(x2.value)
+        self.canvas.y2 = Int(y2.value)
+        self.canvas.tipoCurva = .gradiente2
+        self.canvas.setNeedsDisplay()
     }
     
+    func actualizarDibujos() {
+        switch self.canvas.tipoCurva {
+        case .bezier:
+            actualizarCurvaBezier()
+        case .bezierQuad:
+            actualizarCurvaQuadBezier()
+        case .gradiente1:
+            actualizarGradiente1()
+        case .gradiente2:
+            actualizarGradiente2()
+        }
+    }
+    
+    @IBAction func curvaSeleccionada(_ sender: UISegmentedControl) {
+        
+        let indice = sender.selectedSegmentIndex
+        
+        switch indice {
+        case 0:
+            actualizarCurvaBezier()
+        case 1:
+            actualizarCurvaQuadBezier()
+        case 2:
+            actualizarGradiente1()
+        case 3:
+            actualizarGradiente2()
+        default:
+            actualizarCurvaBezier()
+        }
+        
+    }
     
     @IBAction func btnAnchoAlto(_ sender: UIButton) {
         
@@ -73,98 +116,57 @@ class VCCurvasBezier: UIViewController {
     @IBAction func x1(_ sender: UIStepper) {
         x1.value = sender.value
         
-        switch self.canvas.tipoCurva {
-        case .bezier:
-            actualizarCurvaBezier()
-        case .bezierQuad:
-            actualizarCurvaQuadBezier()
-        }
+        actualizarDibujos()
         
     }
     
     @IBAction func y1(_ sender: UIStepper) {
         y1.value = sender.value
         
-        switch self.canvas.tipoCurva {
-        case .bezier:
-            actualizarCurvaBezier()
-        case .bezierQuad:
-            actualizarCurvaQuadBezier()
-        }
+        actualizarDibujos()
     }
     
     @IBAction func x2(_ sender: UIStepper) {
         x2.value = sender.value
         
-        switch self.canvas.tipoCurva {
-        case .bezier:
-            actualizarCurvaBezier()
-        case .bezierQuad:
-            actualizarCurvaQuadBezier()
-        }
+        actualizarDibujos()
     }
     
     @IBAction func t2(_ sender: UIStepper) {
         y2.value = sender.value
         
-        switch self.canvas.tipoCurva {
-        case .bezier:
-            actualizarCurvaBezier()
-        case .bezierQuad:
-            actualizarCurvaQuadBezier()
-        }
+        actualizarDibujos()
     }
     
     @IBAction func puntoCx1(_ sender: UIStepper) {
         puntoCx1.value = sender.value
         
-        switch self.canvas.tipoCurva {
-        case .bezier:
-            actualizarCurvaBezier()
-        case .bezierQuad:
-            actualizarCurvaQuadBezier()
-        }
+        actualizarDibujos()
     }
     
     @IBAction func puntoCy1(_ sender: UIStepper) {
         puntoCy1.value = sender.value
         
-        switch self.canvas.tipoCurva {
-        case .bezier:
-            actualizarCurvaBezier()
-        case .bezierQuad:
-            actualizarCurvaQuadBezier()
-        }
+        actualizarDibujos()
     }
     
     @IBAction func puntoCx2(_ sender: UIStepper) {
         puntoCx2.value = sender.value
         
-        switch self.canvas.tipoCurva {
-        case .bezier:
-            actualizarCurvaBezier()
-        case .bezierQuad:
-            actualizarCurvaQuadBezier()
-        }
+        actualizarDibujos()
     }
     
     @IBAction func puntoCy2(_ sender: UIStepper) {
         puntoCy2.value = sender.value
         
-        switch self.canvas.tipoCurva {
-        case .bezier:
-            actualizarCurvaBezier()
-        case .bezierQuad:
-            actualizarCurvaQuadBezier()
-        }
+        actualizarDibujos()
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-
+    
     /*
     // MARK: - Navigation
 
